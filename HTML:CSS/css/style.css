@@ -1,0 +1,859 @@
+nav{
+	background-color: #212121;
+	float: right;
+	height: 75px;
+	width: auto;
+	position: fixed;
+	z-index: 3;
+	
+	width: 100%;
+	
+	margin-bottom: 0;
+	
+	font-size:1em;
+	}
+	.logo{height :60px;
+	float:left;
+	font-size:1.5em;
+	padding-left:50px;
+	margin-top:15px;
+	}
+	
+	#feature1, #feature2, #feature3,#feature4,#feature5,#feature6 { 				
+	width:30.9%;
+	padding-left:20.2px;
+	
+	background-color:#f4f4f4;
+	height:550px;
+	float:left;
+	
+	
+	text-align:center;
+	padding-top:250px;
+		}
+		.small_box {height:62px;
+		
+		padding-bottom:100px;
+		padding-left:50px;
+		margin:auto;
+		}
+		.img {float:left;
+		padding-top:30px;
+		padding-right:15px;
+		
+		}
+	#sample {float:left;
+	margin-left:10px;
+	padding-top:68px;
+	background-size:100%;
+	
+	
+	
+	}
+	
+	#iphone {
+	float: left;
+	margin:auto;
+	z-index:-1;
+	height: 530px;
+	width: 270px;
+	background-image: url(../image/iphone.png);
+	margin-top: 80px;
+	position:absolute;
+	background-repeat: no-repeat;
+	margin-left:250px;
+	background-size:100%;
+	}
+	
+	#gift {width:100%;
+		height:500px;
+		margin-top:350px;
+	   margin-left:90px;
+	   float:left;
+	   background-size:70%;
+	  background-image:url(../image/gift1.png);
+	  background-position:bottom;
+	   background-position:left ;
+	   background-repeat:no-repeat;
+	   position:absolute;
+	   z-index:1;}
+	
+	  
+
+	   
+	#gallery {width:100%;
+	margin:auto;
+	z-index:auto;
+	
+	background-color:#fff;}
+	#gallery1 {width:100%;
+	background-color:#fff;
+	z-index:auto;}
+	
+
+
+	
+nav ul {	display:inline;
+		width:auto;
+		transition:max-height 0.4s;
+	
+		
+		
+		
+		
+		}
+				
+
+	
+
+
+nav ul li	{
+	display: inline;
+	width: auto;
+	height: auto;
+	padding-right: 40px;
+	
+	float: right;
+	padding-top: 25px;
+	position: realitive;
+	font-size: 90%;		
+	}
+	
+
+		 
+		 
+
+			
+			
+
+			
+			
+a:link {
+	text-decoration: none;
+	color: #fff;
+}
+
+a:active { color: blue; }
+
+
+a:visited { color: #fff; }
+
+a:hover { 
+		  
+		  
+    	 
+		  color:#999;
+		 }
+	
+	
+	
+body	{
+	
+	margin:0;
+	font-family: 'Raleway', sans-serif;
+	}
+	
+
+
+.right_box {
+	width: 50%;
+	height: 850px;
+	float: right;
+	background-color: #fff;
+	background-image: url(../image/home.png);
+	background-repeat: no-repeat;
+	background-position: right 40px;
+	backgroudn-size:100%;
+
+	position:relative;	
+	
+	}
+	
+.left_box {
+	width: 50%;
+	height: 670px;
+	float: left;
+	background-color: #fff;
+		padding-top:180px;
+	text-align: center;	
+	position:relative;
+	
+}
+
+#offer {background-color:#d42426;
+		 border:thin;
+		 color:white;
+		 padding-top:12px;
+		 width:105px;
+		 height:38px;
+		 padding-left:15px;
+		 font-size:20px;
+		 margin-left:270px;}	
+#offer:hover {background-color:#c1181a;
+		 border:thin;
+		 
+		 padding-top:12px;
+		 width:105px;
+		 height:38px;
+		 padding-left:15px;
+		 font-size:20px;}	
+
+	
+	
+	
+	
+	.offer h1 {
+	color: white;
+	font-size: 4em;
+	letter-spacing: 2px;
+	text-align: left;
+	float: left;
+	width:auto;
+}
+				.xmas {font-size:1.5em;
+				
+				text-align:center;
+				padding-bottom:30px;
+				color:#333;
+				letter-spacing:1px;
+				width:auto;}
+	
+	h1{color:#373636;
+	font-size:5em;
+	padding-left:70px;
+	}
+	.text {
+	padding: 10px;
+	color: #999;
+	padding-left:70px;
+	white-space: normal;
+	text-indent: 5px;
+	font-size:2em;
+	}
+	.text1{color:#36c7fd;
+	font-size:1.5em;
+	padding-left:70px;
+	}
+	.text3{color:#f4f4f4;
+	font-size:15px;
+	margin-top:-25px;}
+	h2 {
+	color: white;
+	padding-bottom: 5px;
+	vertical-align: top;
+}
+
+
+
+
+	
+	
+	#content1 {
+	width: 100%;
+	height: 800px;
+	background-color:#ffff;
+	position: relative;
+	margin: auto;
+	
+	color: #8b8a8a;
+	}
+	
+	
+	#content {
+	width: 100%;
+	height: 850px;
+	background-color: #f9f9f9;
+	position: relative;
+	margin: auto;
+	}
+	
+	#content2 {
+	width: 100%;
+	height: 800px;
+	background-color: #f4f4f4;
+	position: relative;
+	background-image: url(../image/background.jpg);
+	margin-right: auto;
+	margin-left: auto;
+	}
+	
+	
+	#content3 {
+	width: 100%;
+	height: 690px;
+	background-color: #fff;
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top:160px;
+	
+	
+	}
+	#content4 {
+	width: 100%;
+	height: 650px;
+	background-color:#f4f4f4;
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top:160px;
+	
+	
+	
+	}
+	
+	#content5 {
+	width: 100%;
+	height: 850px;
+	background-color: #fff;
+	color:##8b8a8a;
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	
+	
+	
+	
+	}
+/*#map {
+	width:100%;
+	height:400px;
+	background-color:red;}*/
+	
+	
+	
+#map {
+position: relative;
+
+width: 100%;
+height: auto;
+}
+
+	
+	
+	
+	
+	
+#section {
+	width:100%;
+	height:400px;}
+	
+#form {width:40%;
+	   height:350px;
+	   margin:auto;
+	   float:right;
+	  padding-top:100px;
+	 
+	   }
+	   
+ h9 {width:auto;
+	margin-top:-50px;
+	position:absolute;
+	float:right;
+	padding-left:140px;
+	
+	text-align:center;
+	font-size:1.5em;
+	height:50px;
+	vertical-align:bottom;
+	}
+	
+#info {width:60%;
+
+	   height:410px;
+	   padding-left:250px;
+	   padding-top:40px;
+	   color:#8b8a8a;
+	   }
+.address {margin-top:25px;
+height:auto;
+background-image:url(../image/situation.png);
+background-repeat:no-repeat;
+height:32px;
+padding-left:50px;
+}
+
+.phone {margin-top:50px;
+height:5px;
+background-image:url(../image/telephone5.png);
+background-repeat:no-repeat;
+height:32px;
+padding-left:50px;
+
+
+}
+.email {margin-top:25px;
+height:5px;
+background-image:url(../image/email5.png);
+background-repeat:no-repeat;
+height:32px;
+padding-left:50px;
+
+}
+.website {margin-top:25px;
+height:5px;
+background-image:url(../image/web58.png);
+background-repeat:no-repeat;
+height:32px;
+padding-left:50px;
+
+}
+	
+h4 {text-align:center;
+color:#8b8a8a;}
+h6 {text-align:left;
+color:#8b8a8a;
+font-size:1em;
+
+}	
+h6 {
+	text-align: center;
+	color: #fff;
+	width: 150px;
+	height: 40px;
+	background-color: #36c7fd;
+	text-align: center;
+	vertical-align: middle;
+	padding-top:20px;
+	margin:auto;
+}	
+
+
+h6:hover {
+	text-align: center;
+	color: #fff;
+	width: 150px;
+	height: 40px;
+	background-color: #03b8fc;
+	text-align: center;
+	vertical-align: middle;
+	padding-top:20px;
+	margin:auto;
+}	
+
+#box1 {width:50%;
+	  height:850px;
+	   padding-top:100px;
+	   float:right;
+	   margin:auto;
+	   background-image:url(../image/bg.png);
+	   background-repeat:no-repeat;
+	   background-position:right bottom;
+	   background-size:100%;
+	  
+	    }
+#box {width:50%;
+	  height:800px;
+	  padding-top:100px;
+	  float:left;
+	  position:relative;
+	  background-position:bottom ;
+	  background-repeat:no-repeat;
+	  z-index:5;
+	  }
+	  
+	/*
+
+#box {width:45%;
+	  margin:auto;}
+
+.home
+	{width: 100%;
+	height: 850px;
+	padding: 5px;
+	background-color: #FFF;
+	position: relative;
+	z-index: -1;
+	margin-right: auto;
+	margin-left: auto;
+	border-top-width: thin;
+	border-right-width: thin;
+	border-bottom-width: thin;
+	border-left-width: thin;
+	border-top-style: solid;
+	border-top-color: #CCC;
+	border-right-color: #CCC;
+	border-bottom-color: #CCC;
+	border-left-color: #CCC;
+		padding-top:30px;
+
+}
+
+/*.content1 {
+	width: 90%;
+	height: 850px;
+	border: thin solid #CCC;
+	padding: 5px;
+	background-color: #FFF;
+	margin-top: -50px;
+	position: relative;
+	z-index: -1;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	padding-top:30px;
+}
+
+.content2 {
+	width: 90%;
+	height: 850px;
+	border: thin solid #CCC;
+	padding: 5px;
+	background-color: #FFF;
+	margin-top: -50px;
+	position: relative;
+	z-index: -1;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	padding-top:30px;
+
+}
+
+.content3 {
+	width: 90%px;
+	height: 850px;
+	border: thin solid #CCC;
+	padding: 5px;
+	background-color: #FFF;
+	margin-top: -50px;
+	position: relative;
+	z-index: -1;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	padding-top:30px;
+
+}
+
+.content4 {
+	width: 90%;
+	height: 350px;
+	border: thin solid #CCC;
+	padding: 5px;
+	background-color: #FFF;
+	margin-top: -50px;
+	position: relative;
+	z-index: -1;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	padding-top:30px;
+
+}
+
+
+*/
+
+table {
+	border-collapse: collapse;
+	border: 2px solid #999;
+	margin: auto;
+	text-align: center;
+	width: 100%;
+	
+	 
+	vertical-align: middle;
+		}
+
+		caption {
+			
+
+		font-weight:bold;
+		font-size:170%;
+		padding:0.5em;
+			
+		}
+		
+		thead {
+			background-color:#36c7fd;
+			color:white;
+		}
+		th, td {
+			
+			padding: .2em 1em .2em .5em;
+			text-align: center;
+			vertical-align: middle;
+			height:50px;
+			width:200px;
+			
+		
+		}
+		
+		
+		.right {
+			text-align: right;
+		}
+
+/* create a .top class to adjust the vertical alignment of merged cells */
+.top {vertical-align:top;}
+		
+/* create a selector and CSS rule to assign a background color to the even rows in the table */
+tbody tr:nth-child(even) td{
+	background-color:#fff;}
+	
+	#table-wrapper {
+	height:auto;
+	width:100%;
+	margin:auto;
+	}
+	#table1{
+	margin:auto;
+	float:left;
+	width:20%;
+	padding-left:15%;
+	
+	
+	
+	
+	}
+
+#table3 {
+	margin:auto;
+	float:left;
+	width:20%;
+	padding-left:5%;
+	margin-right:10%;
+
+	}
+#table2 {
+	margin-top:-50px;
+	float:left;
+	width:20%;
+	height:700px;
+	padding-left:5%;
+
+	}
+
+
+footer {
+	width:100%;
+	margin: auto;
+	
+	text-align: center;
+	vertical-align:bottom;
+	padding-top:20px;
+	background-color: #212121;
+	height: 80px;
+	padding-top:60px;
+	color:#fff;
+	
+}
+
+
+	.facebook {
+	background-repeat:no-repeat;
+	width:auto;;
+	padding-right:30px;
+	float:right;
+	padding-left:10px;
+	coursor:pointer;
+	height:auto;
+	}
+	.twitter {
+	background-repeat:no-repeat;
+	
+	width:auto;
+	height:auto;
+	float:right;
+	padding-left:10px;
+
+	}
+	
+	.youtube {
+	background-repeat:no-repeat;
+	
+	width:auto;
+	height:auto;
+	float:right;
+	padding-left:20px;
+
+	}
+
+
+#wrapper {
+	width:100%;
+	height:auto;
+	margin-left:auto;
+	margin-right:auto;
+	
+	background-color:#eee;
+	z-index: 1;
+	
+	position:relative;
+	z-index:1;
+	border:#000;
+	}
+	
+	
+	
+	
+
+
+	
+	
+#button {background-color:#36c7fd;
+		 border:thin;
+		 color:white;
+		 margin-left:126px;
+		 width:auto;
+		 padding-left:2em;
+		 padding-right:2em;
+		 font-size:12px;}
+		 
+#button:hover {background-color:#03b8fc;
+		 border:thin;
+		 color:white;
+		  margin-left:126px;
+		 width:auto;
+		 padding-left:2em;
+		 padding-right:2em;
+		 }
+		
+#appstore{width:250px;
+		  margin:auto;
+		  background-color:red;
+		  height:auto;}		 
+.download {float:left;
+		   margin:auto;
+		   width:100px;
+		   height:33px;
+		   margin-right:20px;
+		   margin-left:30px;
+		   }
+.download1 {
+			float:left;
+		   margin:auto;
+		   width:100px;
+		   height:33px;}
+		 
+label {
+	float: left;
+	width: 6em;
+	text-align: right;
+	height: .3em;
+	vertical-align: middle;
+	margin-left:1em;
+	padding-top:1em;
+	color:#8b8a8a;
+	
+}
+
+input {margin-left:1em;
+	   margin-bottom:.5em;
+	   width:25em;
+	   height:4em;
+	   vertical-align: middle;
+	  
+	   padding-left:5px;
+}
+
+.handle {	width:100%;
+			background:black;
+			box-sizing:border-box;
+			padding:35px 20px;
+			padding-left:45%;
+			display:none;
+}
+
+Responsive    
+
+
+
+	
+@media only screen and (max-width: 580px) {
+    
+	#feature1  {
+		width:100%;
+		margin:auto;
+		float:left;
+		margin-left:-60px;
+		height:auto;}
+		
+		#feature1 {
+		width:100%;
+		margin:auto;
+		
+		padding-top:0;
+		margin-left:-60px;
+		
+		}
+		
+		#content1 {height:auto;}
+		#feature1 {
+		width:100%;
+		margin:auto;
+		float:none;
+		margin-left:-60px;}
+	
+	.right_box{width:100%;
+				height:auto;
+				flaot:left;
+				margin:auto;
+				}
+	.left_box{width:100%;
+				height:auto;
+				margin:auto;
+				float:left;
+				}
+	
+	.logo {padding:none;
+			display:hidden;}
+	nav ul { max-height:0;}		
+	nav ul {overflow:hidden;
+			margin:0;
+			text-align:center;
+			width:100%;
+			padding:0;
+			
+	}
+	.handle {display:block;}
+	nav ul li {
+		display:block;
+		width:100%;
+		padding:20px;
+		box-sizing:border-box;
+		padding:15px;
+		background-color:#777;
+	
+	}
+	
+
+
+
+
+
+
+
+
+
+
+
+
+#iphone {
+	float: left;
+	margin:auto;
+	z-index:-1;
+	height: 530px;
+	width: 100%;
+	background-image: url(../image/iphone.png);
+	margin-top: 80px;
+	position:absolute;
+	background-repeat: no-repeat;
+	margin-left:100px;
+	background-size:100%;
+	}
+	
+	
+	#gift {width:400px;
+		height:500px;
+		margin-top:350px;
+	   margin-left:90px;
+	   float:left;
+	   background-size:70%;
+	  background-image:url(../image/gift1.png);
+	  background-position:bottom;
+	   background-position:left ;
+	   background-repeat:no-repeat;
+	   position:absolute;
+	   z-index:1;}
