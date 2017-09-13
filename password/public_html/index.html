@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Password Generator</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+   <link rel="stylesheet" type="text/css" href="stylesheet.css">
+ 
+   <script src="script.js"></script>
+   
+   
+  
+  
+
+
+   
+</head>
+
+
+<body>
+
+<div class="container-fluid">
+	<div class = "logo"> 
+	</div>
+		<div id = "textbox" class = "textbox"> 
+		</div>
+		<div  class = "input">
+		<input type = "text" id = "input" class = "inputbox" placeholder = "enter length" onfocus="this.placeholder = ''" onblur="this.placeholder = 'enter length'" /> </input>
+		</div>
+		<!-- **********this is buttons ********* -->
+			<div class = "buttons">
+			<div class = "text">
+			<div class = "text1">A-Z
+			</div>
+			<div class = "text1">a-z
+			</div>
+			<div class = "text1">0-9
+			</div>
+			<div class = "text1">@#$
+			</div>
+			</div>
+				<div class = "button">
+						
+						<label class="switch">
+ 						 	<input type="checkbox" id= "checkbox1" checked>
+ 						 	<div class="slider round"></div>
+						</label>
+				</div>
+				
+				<div class = "button">
+						<label class="switch">
+  							<input type="checkbox" id= "checkbox2"checked>
+ 					    	<div class="slider round"></div>
+						</label>
+				</div>
+				
+				<div class = "button">
+						<label class="switch">
+ 							 <input type="checkbox" id= "checkbox3" checked>
+ 					 		 <div class="slider round"></div>
+						</label>
+				</div>
+				
+				<div class = "button">
+						<label class="switch">
+  							<input type="checkbox" id= "checkbox4">
+ 							<div class="slider round"></div>
+						</label>
+				</div>
+
+
+			</div>
+			<!--****buttons ended ******-->
+			
+			
+<button id="myBtn" onclick = test() class = "generade">Generate</button>
+			
+
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,252 @@
+@import url(@import url('https://fonts.googleapis.com/css?family=Rajdhani:400,500');
+
+body {	font-family: 'Rajdhani', sans-serif;;
+		background-color:#444549;}
+
+.container-fluid {
+	margin-top:50px;
+	margin-left:none;
+	margin-right:none;
+	width: 800px;
+	height:500px;
+	background-color: white;
+	border-radius:25px;
+	
+}
+
+.logo{
+	padding-top:30px;
+	margin-top:10px;
+	margin-left:none;
+	margin-right:none;
+	padding-bottom:80px;
+	padding-left:90px;
+	
+	width:100%;
+	height:auto;
+	position: relative;
+	background-color: white;
+	text-align:left;
+	float:left;
+	background-image: url(image/logo.png);
+	background-repeat:no-repeat;
+	margin-bottom:20px;
+	
+}
+
+.textbox{
+	margin-top:120px;
+	position:relative;
+	width:70%;
+	height:82px;
+	background-color:#eee;
+	margin-left:auto;
+	margin-right:auto;
+	border-radius:10px;
+	font-size:25px;
+	text-align:center;
+	padding-top:30px;
+}
+.result_text {
+position:relative;
+height:auto;
+width:100%;
+text-align:center;
+vertical-align:center;
+padding-top:10px;
+}
+
+.buttons{
+	margin-top:20px;
+	width:65%;
+	height:auto;
+	background-color:white;
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+
+.button{
+	margin-top:0px;
+	width:auto;
+	height:auto;
+	background-color:white;
+	position:relative;
+	margin-left:0px;
+	margin-right:auto;
+	padding-left:33px;
+	padding-right:32px;
+	float:left;
+	color:black;
+	
+
+
+}
+.generade{
+	margin-top:30px;
+	margin-left:38.5%;
+	margin-right:auto;
+	background-color:#2196F3;
+	position:relative;
+	height:58px;
+	width:180px;
+	border-radius:10px;
+	text-align:center;
+	padding-top:0px;
+	color:white;
+	font-size:20px;
+	 border: hidden;
+     cursor: pointer;
+     outline: none;
+	
+	
+}
+a:link {
+	text-decoration:none;
+	color:white;
+}
+
+a:visited {
+	color:white;
+	text-decoration:none;
+}
+
+a:hover {
+	color:black;
+	text-decoration:none;
+}
+a:active {
+	color:white;
+	text-decoration:none;
+}
+
+.text {
+	
+	color:black;
+	position:relative;
+	width:100%;
+	height:20px;
+	background-color:white;
+	margin-left:auto;
+	margin-right:auto;
+	border-radius:10px;
+	
+	padding-left:0px;
+	
+}
+
+
+.input {
+	margin-top:20px;
+	color:black;
+	position:relative;
+	width:20%;
+	height:50px;
+	
+	background-color:#eee;
+	margin-left:auto;
+	margin-right:auto;
+	border-radius:10px;
+	text-align:center;
+	outline: none;
+	
+
+}
+
+.inputbox {
+	
+	color:black;
+	position:relative;
+	width:100%;
+	height:50px;
+	padding-top:10px;
+	background-color:#eee;
+	margin-left:auto;
+	margin-right:auto;
+	border-radius:10px;
+	text-align:center;
+	outline: none;
+	
+
+}
+
+
+.text1 {
+	
+	color:black;
+	position:relative;
+	width:90px;
+	height:30px;
+	background-color:white;
+	margin-left:25px;
+	margin-right:5px;
+	border-radius:10px;
+	float:left;
+	padding-left:0px;
+	padding-right:0px;
+	padding-top:0px;
+	text-align:center;
+	vertical-align:center;
+
+}
+
+
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {display:none;}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 10px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+
